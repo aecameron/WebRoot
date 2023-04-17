@@ -1,0 +1,78 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(19, 46, 104);
+    background-color: rgb(167, 220, 209) !important;
+}
+
+img {
+    border: solid 7px black;
+}
+
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-items: top;
+
+}
+
+.col-container {
+    display: table;
+    /* Make the container element behave like a table */
+    width: 80%;
+    /* Set full-width to expand the whole page */
+
+}
+
+.col {
+    display: table-cell;
+    /* Make elements inside the container behave like table cells */
+}
+
+.clip-star {
+    background: gold;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/*
+@media only screen and (max-width: 576px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+*/
